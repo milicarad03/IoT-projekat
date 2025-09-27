@@ -7,10 +7,12 @@ pojava pukotina ili udara vozila/broda u stubove. Sistem prikuplja podatke sa se
 analizira ih lokalno i u oblaku i obaveštava nadležne službe u realnom vremenu. Na ovaj način se na 
 vreme može detektovati potencijalni rizik za bezbednost mosta i omogućiti brza reakcija, čime se 
 smanjuje mogućnost havarija ili oštećenja. 
+
 Softverska simulacija omogućava testiranje i demonstraciju rada sistema u kontrolisanim uslovima, 
 bez potrebe za fizičkom opremom, što znatno smanjuje troškove i rizik tokom faze razvoja. Osim 
 toga, ovakav pristup omogućava detaljno praćenje i analizu podataka, kao i optimizaciju algoritama 
 za detekciju anomalija. 
+
 Jedan od ključnih aspekata projekta je upotreba MQTT protokola za komunikaciju između senzora, 
 kontrolnog modula i aktuatora. Podaci o stanju mosta se u realnom vremenu prenose do centralnog 
 kontrolnog sistema, koji na osnovu unapred definisanih pravila može aktivirati različite reakcije 
@@ -20,6 +22,7 @@ Ovaj projekat demonstrira kako IoT tehnologije mogu doprineti značajnom unapre�
 bezbednosti infrastrukturnih objekata. Takođe pokazuje da je moguće razviti efikasne i pouzdane 
 sisteme za nadzor mostova koji su primenljivi u realnim uslovima, što predstavlja korak ka 
 modernizaciji i digitalizaciji infrastrukture.
+
 • Senzori: mere temperaturu, naprezanje, vibracije i ultrazvučno rastojanje sa simulacijom 
 slučajnih podataka za testiranje. Svaki senzor (senzorA, senzorB, senzorC) ima specifičan 
 skup merenja: senzorA prati temperaturu, senzorB vibracije i ultrazvuk, dok senzorC 
